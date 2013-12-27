@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["http://store.nike.com/*", "http://insider.nike.com/*"],
-      "js": ["autocart.js"]
+      "js": ["jquery.min.js", "autocart.js"]
     }
   ], "permissions": [
     "tabs", "http://store.nike.com/*", "http://insider.nike.com/*", "webNavigation", "webRequest", "tabs"
