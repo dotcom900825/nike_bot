@@ -1,0 +1,14 @@
+{
+  "name": "Nike",
+  "manifest_version": 2,
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["http://store.nike.com/*", "http://insider.nike.com/*"],
+      "js": ["autocart.js"]
+    }
+  ], "permissions": [
+    "tabs", "http://store.nike.com/*", "http://insider.nike.com/*", "webNavigation", "webRequest", "tabs"
+  ]
+
+}
